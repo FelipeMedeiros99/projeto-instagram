@@ -229,3 +229,18 @@
             .curtido-por span{
                 font-weight: 700;
             }
+
+/*caixa adicional*/
+.caixa-adicional{
+}
+
+    .caixa-adicional-perfil{
+    }
+    .caixa-adicional-perfil img{
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+    }
+
+        .caixa-adicional-perfil-nome-user{
+        }

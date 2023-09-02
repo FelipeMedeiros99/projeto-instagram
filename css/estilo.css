@@ -1,0 +1,214 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DBDBDB;
+}
+
+/*manipulando barra inicial*/
+
+.barra-inicial{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;   
+    height: 54px;
+    width: 1366px;
+    background-color:#ffffff;
+}
+
+    /*primeira parte, logos do insta*/
+    .barra-inicial-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        width: 140px;
+
+    }
+
+    .barra-inicial-logo-nome-instagram{
+        height: 29px;
+    }
+
+    .barra-inicial-logo-separacao{
+        width: 1px;
+        height: 29px;
+        background-color: #DBDBDB;
+    }
+
+    .barra-inicial-logo-logo-instagram{
+        
+        height: 22px;
+        width: 22px;
+    }
+
+    /*segunda parte, barra pesquisar*/
+
+    .barra-inicial-pesquisar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+    }
+
+        .barra-inicial-pesquisar-pesquisar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #FAFAFA;
+            height: 28px;
+            width: 215px;
+            border-radius: 3%;
+            color: #DBDBDB;
+        }
+
+    /*última parte da barra inicial: emojis*/
+    .barra-inicial-emojis{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100px;
+    }
+
+        .barra-inicial-emojis ion-icon{
+           
+            width: 20px;
+            height: 20px;
+        }
+
+ 
+/*barra de status*/
+.barra-status{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:left;
+    align-items: center;
+    margin-top: 30px;
+    height: 118px;
+    width: 614px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+
+}
+
+    .barra-status-caixa{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin: 13px;
+    }
+
+        .barra-status-caixa-foto{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 56px;
+            height: 56px;
+            
+        }
+
+            .background-status{
+                position: absolute;
+                width: 58px;
+                height: 58px;
+                border-radius: 100%;
+            }
+
+            .imagem-status{
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                z-index: 1;
+            }
+
+        .barra-status-caixa p{
+            font-size: 12px;
+            font-weight: 14.06px;
+            margin-top: 7px;
+            color: #262626;
+        }
+
+    .barra-status ion-icon{
+        position: absolute;
+        right:  10px;
+        z-index: 2;
+        width: 32px;
+        height: 32px;
+        background-color: #FAFAFA;
+       border-radius: 100%; 
+    }
+
+
+/*Publicações*/
+.caixa-publicacao{
+    width: 614px;
+    height: 749px;
+    background-color: rgb(241, 13, 165);
+    position: relative;
+    margin-top: 30px;
+
+}
+
+    .caixa-publicacao-foto-nome-ponto{
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+
+    }
+        .caixa-publicacao-foto-nome{
+            display: flex;   
+            align-items: center;
+            justify-content: center;
+        }
+
+            .caixa-publicacao-foto-nome img {
+                width: 32px;
+                height: 32px;
+                border-radius: 100%;
+                margin-right: 20px;
+            }
+        
+        .caixa-publicacao img:nth-child(2){
+            width: 612px;
+            height: 612px;
+        }
+
+    .curtir-comentar-enviar-salvar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;   
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+        .curtir-comentar-enviar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80px;
+
+        }
+
+        .curtir-comentar-enviar-salvar ion-icon{
+            width: 22px;
+            height: 22px;
+        }
+
+    .curtido-por{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }

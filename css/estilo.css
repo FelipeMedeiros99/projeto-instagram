@@ -1,4 +1,4 @@
-body{
+    body{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,7 +149,7 @@ body{
 .caixa-publicacao{
     width: 614px;
     height: 749px;
-    background-color: rgb(241, 13, 165);
+    background-color: rgb(255, 255, 255);
     position: relative;
     margin-top: 30px;
 
@@ -210,5 +210,22 @@ body{
     .curtido-por{
         display: flex;
         align-items: center;
-        justify-content: center;       
+        justify-content: left;   
+        margin-left: 20px;    
+        margin-top: 10px;
     }
+        .curtido-por img{
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            margin-right: 5px;
+        }
+
+        .curtido-por p{
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+            .curtido-por span{
+                font-weight: 700;
+            }

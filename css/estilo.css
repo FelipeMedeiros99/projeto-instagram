@@ -1,15 +1,15 @@
-    .caixa-principal{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    margin-left: 0;
-    background-color: #FAFAFA;;
-    width: 1366px;
-    position: relative;
-    margin-left: 10px;
-    font-family: 'Roboto', sans-serif;
-    
+.caixa-principal{
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;
+margin-left: 0;
+background-color: #FAFAFA;;
+width: 1366px;
+position: relative;
+margin-left: 10px;
+font-family: 'Roboto', sans-serif;
+
 }
 
 /*manipulando barra inicial*/
@@ -28,6 +28,11 @@
     z-index: 3;
     
 }
+
+    .barra-inicial-versao-celular{
+        display: none;
+    }
+    
 
     /*primeira parte, logos do insta*/
     .barra-inicial-logo{
@@ -352,12 +357,3 @@
     }
 
 
-/*site para a resolução de 935px*/
-
-@media(max-width: 935px) {
-    .caixa-adicional{
-        display: none;
-    }
-
-
-}

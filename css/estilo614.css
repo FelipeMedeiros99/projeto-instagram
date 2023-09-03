@@ -1,0 +1,88 @@
+@media (max-width: 614px){
+
+
+    .caixa-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        margin-left: 0;
+        background-color: #FAFAFA;;
+        width: 100%;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        
+        }
+
+        .barra-inicial{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;   
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 54px;
+            width: 100%;
+            background-color:#ffffff;
+            z-index: 3;
+            
+        }
+
+            .barra-inicial-logo{
+                display: none;
+            }
+
+            .barra-inicial-pesquisar{
+                display: none;
+            }
+
+            .barra-inicial-emojis{
+                display: none;
+            }
+
+            .barra-inicial-versao-celular{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+
+    
+    /*barra de status*/
+    .barra-status{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content:left;
+        align-items: center;
+        margin-top: 8%;
+        height: 118px;
+        width: 100%;
+        margin-left: 0px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    
+    /*Publicações*/
+    .caixa-publicacao{
+        width: 100%;
+        height: 749px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        margin-top: 3%;
+        margin-bottom: 4%;
+        margin-left: 0px;
+
+    }
+
+
+        
+    
+    
+    
+}

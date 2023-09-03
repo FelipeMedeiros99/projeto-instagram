@@ -6,6 +6,8 @@
     }
 
 
+
+
     .caixa-principal{
         display: flex;
         flex-direction: column;
@@ -30,7 +32,11 @@
             background-color:#ffffff;
             z-index: 3;
             
-        }
+        }   
+
+            .barra-inicial-versao-celular{
+                display: none;
+            }
 
             /*primeira parte, logos do insta*/
             .barra-inicial-logo{

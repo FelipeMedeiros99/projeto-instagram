@@ -8,6 +8,7 @@
     width: 1366px;
     position: relative;
     margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -17,9 +18,15 @@
     display: flex;
     text-align: center;
     justify-content: left;   
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     height: 54px;
     width: 1366px;
     background-color:#ffffff;
+    z-index: 3;
+    
 }
 
     /*primeira parte, logos do insta*/
@@ -93,7 +100,7 @@
     flex-wrap: nowrap;
     justify-content:left;
     align-items: center;
-    margin-top: 34px;
+    margin-top: 88px;
     height: 118px;
     width: 614px;
     margin-left: 216px;
@@ -267,14 +274,16 @@
         .caixa-adicional-perfil-nome-user p{
             font-size: 14px;  
             color: #262626;       
+
         }
 
         .caixa-adicional-perfil-nome-user p:nth-child(2){
-            color: #8E8E8E;          
+            color: #8E8E8E;   
+            margin-top: 7px;       
         }
 
         .caixa-adicional-perfil-nome-user span{
-            font-weight: bolder;       
+            font-weight: bolder;      
                 
         }
 
@@ -290,7 +299,7 @@
 
         .caixa-adicional-sugestoes span{
             color: #262626;
-            margin-left: 131px;
+            margin-left: 112px;
         }
 
         .caixa-adicional-perfis-indicados{
@@ -318,6 +327,11 @@
             .caixa-adicional-perfis-indicados-perfil-nome p{
                 color: #262626;
                 font-size: 14px;
+                margin-bottom: 4px;
+            }
+
+            .caixa-adicional-perfis-indicados-perfil-nome span{
+                
             }
 
             .caixa-adicional-perfis-indicados-perfil-nome .segue-voce{

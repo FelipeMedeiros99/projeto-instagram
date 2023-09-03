@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: center;
     background-color: #DBDBDB;
+    width: 1366px;
+    position: relative;
+    
 }
 
 /*manipulando barra inicial*/
@@ -232,15 +235,91 @@
 
 /*caixa adicional*/
 .caixa-adicional{
+    position: absolute;
+    background-color: #b90b0b;
+    width: 200px;
+    height: 200px;
+    right: 155px;
+    top: 114px;
 }
 
     .caixa-adicional-perfil{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-top: 22px;
     }
+
     .caixa-adicional-perfil img{
         width: 56px;
         height: 56px;
         border-radius: 100%;
+        margin-right: 10px;
+       
     }
 
-        .caixa-adicional-perfil-nome-user{
+        .caixa-adicional-perfil-nome-user p{
+            font-size: 14px;  
+            color: #262626;       
         }
+
+        .caixa-adicional-perfil-nome-user p:nth-child(2){
+            color: #8E8E8E;          
+        }
+
+        .caixa-adicional-perfil-nome-user span{
+            font-weight: bolder;       
+                
+        }
+
+    .caixa-perfis{
+        margin-top: 20px;
+        }
+
+        .caixa-adicional-sugestoes p{
+            font-size: 12px;
+            color: #8E8E8E;
+            margin-top: 30px;
+        }
+
+        .caixa-adicional-sugestoes span{
+            color: #262626;
+            margin-left: 56px;
+        }
+
+        .caixa-adicional-perfis-indicados{
+            
+        }
+
+        .caixa-adicional-perfis-indicados-perfil{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        
+        .caixa-adicional-perfis-indicados img{
+            width: 32px;
+            height: 32px;
+            border-radius: 100%;
+        }
+        .caixa-adicional-perfis-indicados-perfil-nome{
+            display: flex;
+            flex-direction: column;
+            margin-left: -27px;
+        }
+        
+            .caixa-adicional-perfis-indicados-perfil-nome p{
+                color: #262626;
+                font-size: 14px;
+            }
+
+            .caixa-adicional-perfis-indicados-perfil-nome .segue-voce{
+                color: #8E8E8E;
+                font-size: 12px;
+            }
+
+            .caixa-adicional-perfis-indicados-perfil p:nth-child(3){
+                font-size: 12px;
+                color: #139EF2;
+            }

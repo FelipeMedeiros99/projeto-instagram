@@ -1,21 +1,22 @@
-    body{
+    .caixa-principal{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
-    background-color: #DBDBDB;
+    margin-left: 0;
+    background-color: #FAFAFA;;
     width: 1366px;
     position: relative;
+    margin-left: 10px;
     
 }
 
 /*manipulando barra inicial*/
 
 .barra-inicial{
-    margin-top: 30px;
     display: flex;
     text-align: center;
-    justify-content: space-around;   
+    justify-content: left;   
     height: 54px;
     width: 1366px;
     background-color:#ffffff;
@@ -28,6 +29,8 @@
         justify-content: space-between;
         background-color: #FFFFFF;
         width: 140px;
+        margin-left: 221px;
+        margin-right: 214px;
 
     }
 
@@ -54,6 +57,7 @@
         align-items: center;
         justify-content: center;
         background-color: #ffffff;
+        margin-right: 212px;
     }
 
         .barra-inicial-pesquisar-pesquisar{
@@ -72,13 +76,14 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 100px;
+        margin-right: 216px;
     }
 
         .barra-inicial-emojis ion-icon{
            
             width: 20px;
             height: 20px;
+            margin-right: 20px;
         }
 
  
@@ -88,9 +93,10 @@
     flex-wrap: nowrap;
     justify-content:left;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 34px;
     height: 118px;
     width: 614px;
+    margin-left: 216px;
     background-color: rgb(255, 255, 255);
     position: relative;
     overflow: hidden;
@@ -154,7 +160,9 @@
     height: 749px;
     background-color: rgb(255, 255, 255);
     position: relative;
-    margin-top: 30px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    margin-left: 216px;
 
 }
 
@@ -236,11 +244,9 @@
 /*caixa adicional*/
 .caixa-adicional{
     position: absolute;
-    background-color: #b90b0b;
-    width: 200px;
-    height: 200px;
-    right: 155px;
-    top: 114px;
+    width: 273px;
+    right: 233px;
+    top: 88px;
 }
 
     .caixa-adicional-perfil{
@@ -284,11 +290,11 @@
 
         .caixa-adicional-sugestoes span{
             color: #262626;
-            margin-left: 56px;
+            margin-left: 131px;
         }
 
         .caixa-adicional-perfis-indicados{
-            
+            margin-bottom: 10px;
         }
 
         .caixa-adicional-perfis-indicados-perfil{
@@ -323,3 +329,10 @@
                 font-size: 12px;
                 color: #139EF2;
             }
+        
+    .caixa-adicional-informacoes p{
+        margin-bottom: 18px;
+        color: #C7C7C7;
+        font-size: 11px;
+
+    }

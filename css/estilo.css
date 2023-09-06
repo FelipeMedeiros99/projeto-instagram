@@ -12,6 +12,10 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+.barra-final-celular{
+    display: none;
+}
+
 /*manipulando barra inicial*/
 
 .barra-inicial{
